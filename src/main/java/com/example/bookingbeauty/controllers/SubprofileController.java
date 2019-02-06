@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SubprofileController {
     @GetMapping(path = "/subprofile")
     public String getTestPage() {
-        return "/subprofile";
+        return "subprofile";
     }
 }
