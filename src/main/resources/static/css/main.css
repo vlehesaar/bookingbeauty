@@ -1,0 +1,10 @@
+html {
+    overflow-y: scroll;
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10em;
+}
